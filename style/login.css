@@ -1,0 +1,66 @@
+.login{
+    padding-bottom: 15.8rem;
+    padding-top: 9.7rem;
+}
+
+.container-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40.5rem;
+    max-height: 5.2rem;
+    margin-bottom: 7.8rem;
+}
+
+.container-title img{
+    width: 2.8rem;
+}
+
+.container-title h1{
+    font-size: 2.4rem;
+    color: var(--tertiary-color);
+    margin: 7rem auto 7rem .8rem;
+    font-size: 4.4rem;
+}
+
+.connect{
+    margin-left: 26px;
+    margin-right: 27px;
+}
+
+input{
+    width: 60.6rem;
+    height: 7.6rem;
+    background-color: var(--tertiary-color);
+    opacity: 80%;
+    border-radius: 2rem;
+    border: none;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+}
+
+.connect p:nth-of-type(2) input{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.connect p:nth-child(3){
+    text-align: center;
+}
+
+.connect p:nth-of-type(3) input{
+    width: 27.2rem;
+    height: 6.4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-style: solid;
+    color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+    text-align: center;
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.connect p:nth-of-type(3) input:hover{
+    cursor: pointer;
+}
