@@ -1,0 +1,28 @@
+.register{
+    padding-bottom: 15.8rem;
+    padding-top: 9.7rem;
+}
+
+.create-account{
+    margin-left: 26px;
+    margin-right: 27px;
+}
+
+.create-account input[type="submit"]{
+    width: 27.2rem;
+    height: 6.4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-style: solid;
+    color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+    text-align: center;
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.fullname{
+    display: flex;
+    gap: 1.8rem;
+    width: 60.6rem;
+}

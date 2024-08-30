@@ -6,6 +6,7 @@
     <title>Barber</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/register.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +16,6 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <span id="menu" class="material-icons">menu</span>
-
     <main>
         <aside>
             <h1>Entre agora para o clube!</h1>
@@ -25,14 +24,24 @@
             <p>Já tem uma conta? <a href="index.html">Entrar agora</a></p>
         </aside>
 
-        <article class="login">
+        <article class="register">
             <div class="container-title">
                 <img src="assets/user-solid 1.png" alt="user icon">
                 <h1>Registre-se</h1>
             </div>
 
-            <form action="">
-            
+            <form action="" class="create-account">
+                
+                <div class="fullname">
+                    <p>
+                        <input type="text" name="nome" id="nome" placeholder="Primeiro nome">
+                    </p>
+
+                    <p>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                    </p>
+                </div>
+
                 <p>
                     <input type="submit" value="Registrar">
                 </p>
