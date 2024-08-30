@@ -28,7 +28,7 @@
     margin-right: 27px;
 }
 
-input{
+.connect p input{
     width: 60.6rem;
     height: 7.6rem;
     background-color: var(--tertiary-color);

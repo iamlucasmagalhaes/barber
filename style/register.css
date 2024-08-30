@@ -1,6 +1,7 @@
 .register{
     padding-bottom: 15.8rem;
     padding-top: 9.7rem;
+    max-height: 76rem;
 }
 
 .create-account{
@@ -25,4 +26,29 @@
     display: flex;
     gap: 1.8rem;
     width: 60.6rem;
+}
+
+.fullname p input{
+    width: 29.4rem;
+}
+
+.create-account input,
+select{
+    width: 60.6rem;
+    height: 7.6rem;
+    background-color: var(--tertiary-color);
+    opacity: 80%;
+    border-radius: 2rem;
+    border: none;
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    margin-bottom: 3.2rem;
+}
+
+select{
+    text-align: center;
+}
+
+.submit-btn{
+    text-align: center;
 }
