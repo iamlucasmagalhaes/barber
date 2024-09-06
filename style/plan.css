@@ -47,7 +47,28 @@ h2{
 }
 
 ul{
-    width: 35rem;
+    width: 34rem;
     height: 19rem;
-    background-color: pink;
+    list-style-image: url("../assets/circle-check-solid\ 2.png");
+    list-style-position: inside;
+}
+
+li{
+    font-size: 2.0rem;
+    line-height: 3rem;
+}
+
+li span{
+    position: relative;
+    top: -8px;
+}
+
+.btn-bronze{
+    color: white;
+    border-radius: 1rem;
+    width: 18.5rem;
+    height: 4.3rem;
+    color: #F46161;
+    font-size: 2rem;
+    margin-top: 3.7rem;
 }
