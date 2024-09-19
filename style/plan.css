@@ -29,9 +29,16 @@
  
 .bronze,
 .silver,
-.gold,
-.diamond{
+.gold{
     background-color: var(--primary-color);
+    height: 37rem;
+    width: 37rem;
+    
+    box-shadow: inset -30px -30px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.diamond{
+    background-image: linear-gradient(to bottom, #0CC79A, #9699E8);
     height: 37rem;
     width: 37rem;
     
