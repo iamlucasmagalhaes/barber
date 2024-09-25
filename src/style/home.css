@@ -22,7 +22,7 @@ article{
     background-image: linear-gradient(to bottom, #0CC79A, #9699E8);
 }
 
-h2{
+.plan h2{
     font-size: 3.2rem;
     margin-bottom: 3.7rem;
     margin-top: 3.9rem;
