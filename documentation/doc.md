@@ -32,6 +32,15 @@ O diagrama acima representa o agendamento de um corte cabelo
 
 ### Requisitos Não Funcionais
 
+1. A interface deve ser intuitiva e fácil de navegar, com um tempo de aprendizado menor que 30 minutos para novos usuários.
+2. O sistema deve permitir atualizações e manutenções sem a necessidade de parar o serviço por mais de 1 hora.
+3.  O sistema deve ter uma taxa de disponibilidade de 99,9%.
+
+### Requisitos Suplementares
+
+1. O sistema deve ter uma documentação clara e acessível para usuários e desenvolvedores.
+2. O sistema deve operar via interface Web
+3. O sistema deve ser desenvolvido na linguagem Java
 
 ## Conclusão
 Considerações finais.
